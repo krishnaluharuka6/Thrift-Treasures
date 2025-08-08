@@ -1,0 +1,28 @@
+# Ignore WordPress core
+cloth_store/wp-admin/
+cloth_store/wp-includes/
+cloth_store/license.txt
+cloth_store/readme.html
+cloth_store/wp-config-sample.php
+cloth_store/wp-config.php
+
+# Ignore uploads
+cloth_store/wp-content/uploads/
+
+
+# Ignore cache files
+cloth_store/wp-content/cache/
+
+# Ignore all plugins and themes except our theme
+cloth_store/wp-content/plugins/*
+cloth_store/wp-content/themes/*
+!cloth_store/wp-content/themes/my-theme/
+
+# Ignore system/editor/vendor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+node_modules/
+vendor/
+.env
